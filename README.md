@@ -14,7 +14,7 @@ There is no built-in support for external SSL certificates, although it's trivia
 2. Clone this repository:
 
    ```bash
-   git clone git@git.vcp-dev.de:vcp-sh/ak-internet/verkel-compose.git /etc/verkel
+   sudo git clone https://github.com/InterFelix/verkel-local-setup.git /etc/verkel
    ```
 
 3. Run the script:
@@ -23,7 +23,7 @@ There is no built-in support for external SSL certificates, although it's trivia
    # Switch to verkel directory:
    cd /etc/verkel
    # Make the install-script executable:
-   chmod +x install.sh
+   sudo chmod +x install.sh
    # Run the install-script:
-   ./install.sh
+   sudo ./install.sh
    ```
