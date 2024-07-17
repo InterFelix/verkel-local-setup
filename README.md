@@ -8,7 +8,7 @@ There is no built-in support for external SSL certificates, although it's trivia
 1. Make sure you have installed all necessary packages:
    - git
    - docker
-   - docker-compose-plugin
+   - docker-compose-v2
    - pwgen
 
 2. Clone this repository:
