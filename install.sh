@@ -5,7 +5,7 @@ echo "==========================================================================
 echo ""
 mkdir -p ./nginx/certs
 openssl dhparam -out ./nginx/certs/dhparam.pem 2048
-openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout ./nginx/certs/nginx-selfsigned.key -out ./nginx/certs/nginx-selfsigned.crt -subj "/C=DE/ST=SH/L/Grosszerlang/O=VCP/CN=verkel"
+openssl req -x509 -nodes -days 3650 -newkey rsa:2048 -keyout ./nginx/certs/nginx-selfsigned.key -out ./nginx/certs/nginx-selfsigned.crt -subj "/C=DE/ST=SH/L=Grosszerlang/O=VCP/CN=verkel"
 
 echo "================================================================================"
 echo "Generating secure passwords..."
